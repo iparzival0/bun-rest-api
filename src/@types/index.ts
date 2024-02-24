@@ -6,8 +6,6 @@ export interface IPost {
   content: string;
   image: string;
   authorId: string;
-  createdAt: Date;
-  updatedAt: Date;
 }
 
 export interface IUser {

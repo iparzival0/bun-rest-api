@@ -2,11 +2,25 @@
 
 ## Getting Started
 
-To get started with this template, simply paste this command into your terminal:
+To get started with this template, simply do the following:
 
 ```bash
-bun create elysia ./elysia-example
+Go to the MongoDB website and create a new cluster.
 ```
+
+```bash
+Create a new .env file in the root of the project and add the following:
+MONGO_URI=your_mongo_uri
+```
+
+```bash
+bun install
+```
+
+```bash
+bun run dev
+```
+
 
 ## Development
 

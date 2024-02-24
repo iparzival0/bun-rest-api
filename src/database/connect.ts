@@ -5,8 +5,11 @@ export const connectToDatabase = async (): Promise<void> => {
     await connect('mongodb://localhost:27017/bun-rest-api');
 
     set('strictQuery', false);
-  } catch (e: unknown) {
-    console.error('Unable to connect to the database!');
+    console.log('Connected to the database!');
+  } catch (error: any) {
+    console.error(
+      `Unable to connect to the database!\n\n ${error.name}: ${error.message}`,
+    );
     process.exit(1);
   }
 };

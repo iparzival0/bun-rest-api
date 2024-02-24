@@ -34,13 +34,16 @@
         "src/*"
       ],
       "@/models": [
-        "src/models/index.ts"
+        "src/database/models/index.ts"
       ],
       "@/enums": [
         "src/enums/index.ts"
       ],
       "@/services": [
         "src/services/index.ts"
+      ],
+      "@/dtos": [
+        "src/dtos/index.ts"
       ],
     }, /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
