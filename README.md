@@ -18,11 +18,13 @@ bun run dev
 
 Open http://localhost:3000/ with your browser to see the result.
 
+```
 TODOS:
 User Endpointler oluşturulacak. [x]
 Post endpointler oluşturulacak. [x]
 Testler yazılacak. [ ]
 Dökümantasyon oluşturulacak. [ ]
+```
 
 # Yapılanlar
 
