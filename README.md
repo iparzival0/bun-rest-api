@@ -4,7 +4,7 @@
 
 To get started with this template, simply do the following:
 
-```bash
+```md
 Go to the MongoDB website and create a new cluster.
 
 Create a new .env file in the root of the project and add the following:
