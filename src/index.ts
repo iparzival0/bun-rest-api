@@ -1,7 +1,19 @@
-import { Elysia } from "elysia";
+import { Elysia } from 'elysia';
+import { usersController } from './controllers/users-controller';
+import { connectToDatabase } from './database/connect';
+import { PostsController } from './controllers/posts-controller';
 
-const app = new Elysia().get("/", () => "Hello Elysia").listen(3000);
+const app = new Elysia();
+
+connectToDatabase();
+
+// @ts-ignore
+app.group('/api', (app: Elysia) => app.use(usersController));
+// @ts-ignore
+app.group('/api', (app: Elysia) => app.use(PostsController));
+
+app.listen(5000);
 
 console.log(
-  `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
+  `Project is running at http://${app.server?.hostname}:${app.server?.port}`,
 );
