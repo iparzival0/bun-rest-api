@@ -24,28 +24,49 @@ Post endpointler oluşturulacak. [x]
 Testler yazılacak. [ ]
 Dökümantasyon oluşturulacak. [ ]
 
-### Yapılanlar
+# Yapılanlar
 
 ## Users endpointleri oluşturuldu.
 
-# GET /users
+```
+GET /users
+```
 
-# GET /users/{id}
+```
+GET /users/{id}
+```
 
-# POST /users
+```
+POST /users
+```
 
-# PUT /users/{id}
+```
+PUT /users/{id}
+```
 
-# DELETE /users/{id}
+```
+DELETE /users/{id}
+```
 
-## Post endpointleri oluşturuldu.
 
-# GET /posts
+# Post endpointleri oluşturuldu.
 
-# GET /posts/{id}
+```
+GET /posts
+```
 
-# POST /posts
+```
+GET /posts/{id}
+```
 
-# PUT /posts/{id}
+```
+POST /posts
+```
 
-# DELETE /posts/{id}
+```
+PUT /posts/{id}
+```
+
+```
+DELETE /posts/{id}
+```
