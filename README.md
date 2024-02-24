@@ -6,21 +6,14 @@ To get started with this template, simply do the following:
 
 ```bash
 Go to the MongoDB website and create a new cluster.
-```
 
-```bash
 Create a new .env file in the root of the project and add the following:
 MONGO_URI=your_mongo_uri
-```
 
-```bash
 bun install
-```
 
-```bash
 bun run dev
 ```
-
 
 ## Development
 
