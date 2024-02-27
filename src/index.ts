@@ -1,7 +1,6 @@
 import { Elysia } from 'elysia';
-import { usersController } from './controllers/users-controller';
+import { PostsController, usersController } from './controllers';
 import { connectToDatabase } from './database/connect';
-import { PostsController } from './controllers/posts-controller';
 
 const app = new Elysia();
 
